@@ -8,5 +8,3 @@ elif num1 == num2:
     print ("numeros iguais")
 else:
     print("erro")
-    #teste
-    #teste2
