@@ -1,6 +1,6 @@
-# verificar se nome da cidade começa com 'santo'
-cidade = str(input('digite sua cidade: '))
-nome_cidade = cidade.startswith('santo')
+# verificar se nome da cidade começa com 'SANTO'
+cidade = str(input('digite sua cidade: ')).strip().upper()
+nome_cidade = cidade.startswith('SANTO')
 if nome_cidade == True:
     print ('sua cidade começa com santo.')
 else:
